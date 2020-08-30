@@ -1,0 +1,94 @@
+
+.main {
+    width: 100%;
+    min-height: 50em;
+    background-color:  #f8e6e4;
+    margin: 0;
+    /* opacity: .9; */
+    display: column;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: 'Special Elite', cursive, Arial, Helvetica, sans-serif;
+    overflow: hidden;
+
+}
+
+.main-wrapper {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.main-content {
+    width: 100%;
+    margin: 0;
+    padding: 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.shopCards {
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
+    background-color:#f6cfc5;
+    margin:1em;
+    line-height: .1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.shopCards {
+    cursor: pointer;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .shopCards:hover, .shopCards:focus, .shopCards:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-image: url("../assets/justin-campbell-j47OsrPXqro-unsplash.jpg");
+    background-size: 190%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fa7578;
+  }
+
+.itemImage {
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+}
+
+.itemImage:hover {
+    position:relative;
+    /* top:-25px;
+    left:-35px; */
+    width:600px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
